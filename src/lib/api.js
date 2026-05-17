@@ -1,6 +1,6 @@
 import axios from 'axios';
  
-const BASE = import.meta.env.VITE_API_URL || '';
+const BASE = 'https://charismatic-recreation-production-236f.up.railway.app';
  
 const api = axios.create({ baseURL: BASE });
  
